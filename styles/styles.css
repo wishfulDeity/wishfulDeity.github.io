@@ -1,0 +1,8 @@
+body {
+    background-color: #000;
+}
+
+#hero-section {
+    background-image: url("images/hero.jpg");
+    min-height: 600px;
+}
