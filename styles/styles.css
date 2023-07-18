@@ -27,7 +27,7 @@ html {
     padding: 0px;
 }
 
-.intro {
+.center-box {
     background-color: #8c86be;
     max-width: 50%;
     margin: auto;
@@ -95,6 +95,10 @@ html {
     padding: 0px;
 }
 
+#footer-about {
+    color: #d7d5eb;
+}
+
 .footer-option {
     display: inline-block;
     padding: 6px 12px;
@@ -122,9 +126,32 @@ html {
     display: inline-block;
 }
 
+.about-link {
+    display: inline-block;
+    color: #ada9e0;
+    text-decoration: underline;
+    padding: 0px;
+    border-radius: 6px;
+    scale: 100%;
+}
+
+.about-link:hover {
+    background-color: #554d92;
+    color: #d7d5eb;
+    padding: 3px 48px;
+    transition: padding 0.3s,
+                background-color 0.2s,
+                color 0.2s;
+}
+
+.about-link:not(:hover) {
+    transition: all 0.5s ease-out;
+}
+
 .link {
     display: inline-block;
-    color: #363547;
+    color: #221e46;
+    text-decoration: underline;
     padding: 0px;
     border-radius: 6px;
     scale: 100%;
